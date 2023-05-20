@@ -1,0 +1,21 @@
+.first-section > h1 {
+  color: gold;
+}
+
+.first-section h1 + p {
+  font-style: italic;
+}
+
+.second-section {
+  display: none;
+  background: coral;
+  padding: 1px;
+}
+
+.second-section::first-line {
+  font-size: 200%;
+}
+
+.first-section:hover + .second-section {
+  display: block;
+}
